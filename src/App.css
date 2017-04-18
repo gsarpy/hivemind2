@@ -1,0 +1,72 @@
+* {
+  border-radius: 0;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 150px;
+  padding-bottom: 200px;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #00a799;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.jumbo-intro {
+  background: url('pages/images/assets/jumbo_bg.jpg') center center;
+  text-shadow: 1px 3px 4px #000;
+  box-shadow: 0px 2px 5px 1px #160335;
+}
+
+.featured-game {
+  margin-bottom: 3em;
+}
+
+.mb5em {
+  margin-bottom: 5em;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.pt0 {
+  padding-top: 0;
+}
+
+/* Navbar */
+.navbar-form {
+  padding: 0;
+}
+.nav-search {
+  background: transparent;
+}
+.nav-search:focus {
+  font-weight: bold;
+  background: #9288a1;
+  color: #fff;
+}
+
+.nav-search:focus::-webkit-input-placeholder { color:transparent; }
+.nav-search:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+.nav-search:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+.nav-search:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
